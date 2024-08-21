@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #f1f5f8;
+}
+
+.text{
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    height: 3rem;
+    width: 4rem;
+    margin-left: 41%;
+    margin-top: 15rem;
+    padding: 0.5rem;
+    font-size: 6rem;
+    color: #102b42;
+}
+
+.count{
+    font-size: 6rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+    color: #008000;
+}
+
+.btns{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    margin-top: 3rem;
+}
+
+#inc, #res, #dec{
+    height: 3rem;
+    width: 7rem;
+    font-size: 1rem;
+    border: 0;
+    background-color: #f1f5f8;
+    border: 2px solid black;
+    border-radius: 15%;
+    cursor: pointer;
+}
+
+
